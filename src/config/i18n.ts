@@ -95,6 +95,7 @@ const resources = {
             "menuServices":"Servicios",
             "menuServicesLink":"#",
             "menuContactUs":"Contáctanos",
+            "menuContactUsLink":"#",
             "menuAbout":"Nosotros",
             "menuAboutLink":"#",
             "cardCloudTitle":"Incorporación a la nube",
