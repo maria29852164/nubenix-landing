@@ -18,7 +18,7 @@ export const NavbarMobile:FC<NavbarProps> = ({links})=>{
                     </button>
                 </div>
 
-                <ul className={`${isOpen ? '' : 'hidden'} flex flex-row list-none absolute top-full left-0 bg-white shadow-md rounded-md py-2 px-4`}>
+                <ul className={`${isOpen ? '' : 'hidden'} w-full flex flex-row list-none absolute z-20 top-full left-0 bg-white  py-2 px-4`}>
                     {links.length > 0 && links.map((link, key)=><Link key={key} {...link} />)}
 
                 </ul>
