@@ -9,12 +9,14 @@ export type CardProps={
 
 
 export const Card: FC<CardProps> = ({title, description, image}) => {
-    return (
+
+  return (
 
         <div>
             <h1>{title}</h1>
             <p>{description}</p>
-            <CustomImage {...image}/>
+
+            <CustomImage {...image} className={'h-20'}/>
         </div>
     )
 }
