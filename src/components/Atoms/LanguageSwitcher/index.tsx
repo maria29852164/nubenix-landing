@@ -5,12 +5,12 @@ export const LanguageSwitcher = () => {
     const { i18n} = useTranslation()
     const changeLanguage = useCallback((lng: string) => {
        i18n.changeLanguage(lng)
-   },[])
+        console.log(lng)
+   },[i18n])
     return (
         <div className="language-switcher">
-            <button onClick={() => changeLanguage('en')}>🇬🇧 EN</button>
-            <button onClick={() => changeLanguage('es')}>🇪🇸 ES</button>
-            <button onClick={() => changeLanguage('fr')}>🇫🇷 FR</button>
+            <button className={'text-bold text-lg'} onClick={() => changeLanguage('en')}>🇬🇧 EN</button>
+            <button  className={'text-bold text-lg'} onClick={() => changeLanguage('es')}>🇪🇸 ES</button>
         </div>
     )
 }

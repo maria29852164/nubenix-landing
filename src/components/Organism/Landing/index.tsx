@@ -4,6 +4,7 @@ import {Navbar} from "../../Molecules/Navbar";
 
 export const Landing: FC = () => {
     const {navbarItems} = useNavbarContent()
+
     return (
         <div>
             <Navbar links={navbarItems}/>

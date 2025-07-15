@@ -4,9 +4,10 @@ export type LinkProps = {
     link: string;
 }
 export const Link:FC<LinkProps> = ({link, title})=>{
+    console.log(title)
     return (
-        <li>
-            <a href={link}>{title}</a>
+        <li className={'p-2 '}>
+            <a className={'text-lg font-semibold text-gray-900'} href={link}>{title}</a>
         </li>
     )
 }

@@ -21,7 +21,7 @@ export const useNavbarContent = () => {
             title: t("menuContactUs"),
             link: "#",
         },
-    ]),[])
+    ]),[t])
     return {
         navbarItems,
 
