@@ -18,7 +18,7 @@ export const Landing: FC = () => {
         <div>
             {isMobile ? <NavbarMobile links={navbarItems}/> : <Navbar links={navbarItems}/>}
             <Banner {...bannerInfo} />
-                <CardsContainer cardsInfo={cardsInfo}/>
+            <CardsContainer cardsInfo={cardsInfo}/>
 
         </div>
     )

@@ -41,49 +41,17 @@ const resources = {
             "cardServiceTwoDescription": "We have a group of highly certified professionals including specialists in Azure, GCP, AWS environments with broad experience in DevOps, DevSecOps, Cloud Engineers, Networking, and Security roles.",
             "cardServiceThreeTitle": "Interactive Tools",
             "cardServiceThreeDescription": "Visualization, reporting, and 24/7 tracking tools for your contracted services",
+
+            "footerTitleOne": "Don't have any idea what",
+            "footerTitleTwo": "your website needs?",
+            "footerTitleThree": "Contact us",
+            "footerTitleFour": "right now",
+            "footerTitleFive": "and let us",
+            "footerTitleSix": "advise you",
+            "send": "Send"
         }
     },
-    fr: {
-        translation: {
-            "Welcome to React": "Bienvenue à React et react-i18next",
-            "bannerTitleOne": "Nous travaillons main dans la main",
-            "bannerTitleTwo": "pour faire croître votre entreprise",
-            "bannerDescription": "Nous proposons des services informatiques qui améliorent et transforment votre entreprise, en l’adaptant aux nouveaux défis pour rester compétitif sur le marché.",
-            "menuHome": "Accueil",
-            "menuHomeLink": "#",
-            "menuServices": "Services",
-            "menuServicesLink": "#",
-            "menuContactUs": "Contactez-nous",
-            "menuAbout": "À propos",
-            "menuAboutLink": "#",
-            "cardCloudTitle": "Adoption du cloud",
-            "cardCloudDescription": "Stratégie et mise en œuvre des meilleures pratiques cloud",
-            "cardMigrationTitle": "Services de migration cloud",
-            "cardMigrationDescription": "Le succès de votre entreprise réside dans le cloud. Nous migrons vos données en toute sécurité.",
-            "cardDevopsTitle": "DevOps",
-            "cardDevopsDescription": "Améliorez la qualité et la rapidité de vos déploiements avec le soutien de notre équipe.",
-            "cardDevSecOpsTitle": "DevSecOps",
-            "cardDevSecOpsDescription": "Automatisez la sécurité de vos applications critiques avant leur déploiement",
-            "cardSupportServiceTitle": "Service de support",
-            "cardSupportServiceDescription": "Nous assurons la gestion et le support de vos applications cloud.",
-            "cardContractTitle": "Sous-traitance",
-            "cardContractDescription": "Sous-traitez une équipe personnalisée de spécialistes pour garantir le bon fonctionnement de votre entreprise.",
-            "cardFinOpsTitle": "FinOps",
-            "cardFinOpsDescription": "Réduisez les coûts du cloud et augmentez la performance",
-            "cardReviewCloudTitle": "Révision de l’architecture cloud",
-            "cardReviewCloudDescription": "Alignez votre environnement cloud avec les meilleures pratiques du marché",
-            "cardSoCaaSTitle": "SoCaaS",
-            "cardSoCaaSDescription": "Opérations de sécurité critiques",
-            "sectionExperienceTitle": "Plus de 10 ans d'expérience",
-            "sectionExperienceDescription": "Nous sommes des partenaires stratégiques de nos clients, accompagnant leur croissance et développement, augmentant leur productivité et réduisant leurs coûts grâce à la technologie.",
-            "cardServicesOneTitle": "Surveillance et support 24/7",
-            "cardServiceOneDescription": "Services de surveillance proactive de l’infrastructure et support technique 365 jours par an.",
-            "cardServiceTwoTitle": "Ingénieurs spécialisés",
-            "cardServiceTwoDescription": "Nous disposons d’un groupe de professionnels hautement certifiés, spécialisés dans des technologies telles qu’Azure, GCP, AWS avec une vaste expérience en DevOps, DevSecOps, ingénierie cloud, réseaux et sécurité.",
-            "cardServiceThreeTitle": "Outils interactifs",
-            "cardServiceThreeDescription": "Outils de visualisation, de rapport et de suivi 24h/24 de vos services souscrits",
-        }
-    },
+
     es:{
         translation: {
             "Welcome to React": "Bienvenido a react con react-i18next",
@@ -124,6 +92,13 @@ const resources = {
             "cardServiceTwoDescription":"Contamos con un grupo de profesionales altamente certificados y está formado por ingenieros especialistas en diversas tecnologías como Azure, GCP, entornos AWS con vasta experiencia en roles DevOps, DevSecOps, Ingenieros de Nube, Redes y seguridad.",
             "cardServiceThreeTitle":"Herramientas interactivas",
             "cardServiceThreeDescription":"Herramientas de visualización, informes y seguimiento las 24 horas de sus servicios contratados",
+            "footerTitleOne": "¿No tienes idea de que",
+            "footerTitleTwo": "necesita tu sitio web?",
+            "footerTitleThree": "Contáctanos",
+            "footerTitleFour": "ahora mismo",
+            "footerTitleFive": "y déjanos",
+            "footerTitleSix": "asesorarte",
+            "send": "Enviar",
 
         }
     }
