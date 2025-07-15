@@ -1,7 +1,6 @@
 import type {FC} from "react";
 import {Link} from "../../Atoms/Link";
 import {LanguageSwitcher} from "../../Atoms/LanguageSwitcher";
-import {useTranslation} from "react-i18next";
 
 export interface LinkProps{
     title: string;

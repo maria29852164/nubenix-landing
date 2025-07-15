@@ -1,4 +1,4 @@
-import {type FC, useCallback} from "react";
+import {type FC} from "react";
 import {useNavbarContent} from "../../../hooks/useNavbarContent.tsx";
 import {Navbar} from "../../Molecules/Navbar";
 import {useIsMobile} from "../../../hooks/useIsMobile.tsx";
