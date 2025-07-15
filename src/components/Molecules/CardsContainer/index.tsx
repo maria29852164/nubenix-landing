@@ -8,15 +8,23 @@ export interface CardsContainerProps{
     cardsInfo: {
         sectionOne: {
             data:Array<CardProps>,
-            imageSection:CustomImageProps
+            imageSection:{
+                image:CustomImageProps
+            }
         },
         sectionTwo: {
             data:Array<CardProps>,
-            imageSection:CustomImageProps
+            imageSection:{
+                image:CustomImageProps
+
+            }
         },
         sectionThree: {
             data:Array<CardProps>,
-            imageSection:CustomImageProps
+            imageSection:{
+                image:CustomImageProps
+
+            }
         },
     },
 

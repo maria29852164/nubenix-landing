@@ -1,7 +1,7 @@
-import React, {FC, useTransition} from "react";
 import './footer.css'
 import {useTranslation} from "react-i18next";
 import {TextFooter, type TextFooterProps} from "../../Atoms/TextFooter";
+import type {FC} from "react";
 
 export interface FooterProps {
     footerInfo:TextFooterProps
