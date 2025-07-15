@@ -11,8 +11,8 @@ export interface NavbarProps {
     links: Array<LinkProps>
 }
 export const Navbar:FC<NavbarProps> = ({links})=>{
-    const {t} = useTranslation()
-    return (<div className={"flex items-center justify-between py-10"}>
+    return (
+        <div className={"flex items-center justify-between py-10"}>
         <div className={'pl-10'}>
             <img className={'h-14'} src={'/images/logo.png'}/>
 
