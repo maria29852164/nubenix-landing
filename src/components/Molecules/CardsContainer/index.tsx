@@ -14,7 +14,9 @@ export const CardsContainer:FC<CardsContainerProps> = ({cardsInfo}) => {
     return (
         <div>
             {Object.entries(cardsInfo).map(([key, value]) => (
-                <CardSection key={key} cards={value} />
+               <div className={'flex justify-center'} key={key}>
+                   <CardSection  cards={value} />
+               </div>
             ))}
 
 

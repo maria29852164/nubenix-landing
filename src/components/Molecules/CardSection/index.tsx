@@ -8,9 +8,11 @@ export interface CardSectionProps{
 
 export const CardSection: FC<CardSectionProps> = ({cards})=>{
     return (
-        <div>
+        <div className={'flex flex-wrap justify-center items-center py-10'}>
             {
-                cards.length > 0 && cards.map((card,index)=><Card key={index} {...card} />)
+                cards.length > 0 && cards.map((card,index)=><div className={'w-[500px]'} key={index}>
+                    <Card  {...card} />
+                </div>)
             }
         </div>
     )

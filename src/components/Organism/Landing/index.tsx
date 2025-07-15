@@ -11,8 +11,8 @@ import {CardsContainer} from "../../Molecules/CardsContainer";
 export const Landing: FC = () => {
     const {navbarItems} = useNavbarContent();
     const {bannerInfo}= useBannerHome();
-    const {serviceCards} = useCardServiceInfo();
     const  {isMobile}= useIsMobile()
+    const {serviceCards} = useCardServiceInfo();
 
     return (
         <div>
