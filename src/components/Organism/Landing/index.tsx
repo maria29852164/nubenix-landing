@@ -12,14 +12,14 @@ export const Landing: FC = () => {
     const {navbarItems} = useNavbarContent();
     const {bannerInfo}= useBannerHome();
     const  {isMobile}= useIsMobile()
-    const {serviceCards} = useCardServiceInfo();
+    const {cardsInfo} = useCardServiceInfo();
 
     return (
         <div>
             {isMobile ? <NavbarMobile links={navbarItems}/> : <Navbar links={navbarItems}/>}
             <Banner {...bannerInfo} />
+                <CardsContainer cardsInfo={cardsInfo}/>
 
-            <CardsContainer cardsInfo={serviceCards}/>
         </div>
     )
 }
