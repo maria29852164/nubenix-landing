@@ -11,7 +11,7 @@ export const Footer:FC<FooterProps> = ({footerInfo})=>{
     return (
         <div>
             <div className={'gradientFooter h-0.5vh '}>
-                <div className={'pl-10 flex justify-between'}>
+                <div className={'pl-10 flex flex-wrap justify-between'}>
                     <div className={'flex flex-col space-y-28  mx-4  py-10'}>
 
 
