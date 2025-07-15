@@ -15,7 +15,7 @@ export const Navbar:FC<NavbarProps> = ({links})=>{
             <LanguageSwitcher/>
 
         </div>
-        <div className={"flex flex-row"}>
+        <div className={"flex flex-row "}>
             {links.length > 0 && links.map((link, key)=><Link key={key} {...link} />)}
 
         </div>
