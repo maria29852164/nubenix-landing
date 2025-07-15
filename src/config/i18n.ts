@@ -48,7 +48,15 @@ const resources = {
             "footerTitleFour": "right now",
             "footerTitleFive": "and let us",
             "footerTitleSix": "advise you",
-            "send": "Send"
+            "send": "Send",
+
+            "facebook": "Facebook",
+            "instagram": "Instagram",
+            "whatsapp": "Whatsapp",
+            "gmail": "Gmail",
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Service",
+            "cookies": "Cookie Settings",
         }
     },
 
@@ -99,6 +107,14 @@ const resources = {
             "footerTitleFive": "y déjanos",
             "footerTitleSix": "asesorarte",
             "send": "Enviar",
+
+            "facebook": "Facebook",
+            "instagram": "Instagram",
+            "whatsapp": "Whatsapp",
+            "gmail": "Gmail",
+            "privacy": "Política de Privacidad",
+            "terms": "Términos del Servicio",
+            "cookies": "Configuración de Cookies",
 
         }
     }
