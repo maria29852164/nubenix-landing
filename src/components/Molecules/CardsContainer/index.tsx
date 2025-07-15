@@ -12,9 +12,9 @@ export interface CardsContainerProps{
 
 export const CardsContainer:FC<CardsContainerProps> = ({cardsInfo}) => {
     return (
-        <div>
+        <div className={'flex flex-wrap items-center justify-evenly'}>
             {Object.entries(cardsInfo).map(([key, value]) => (
-               <div className={'flex justify-center'} key={key}>
+               <div key={key}>
                    <CardSection  cards={value} />
                </div>
             ))}

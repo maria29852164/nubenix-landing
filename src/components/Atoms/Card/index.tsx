@@ -17,7 +17,7 @@ export const Card: FC<CardProps> = ({title, description, image}) => {
                 <CustomImage {...image} className={'h-20 w-20'}/>
 
                 <h1 className={'text-lg font-semibold pt-2'}>{title}</h1>
-                <p className={'max-w-[300px] pt-10 text-center'}>{description}</p>
+                <p className={'max-w-[300px] pt-2 text-center'}>{description}</p>
             </div>
 
 
