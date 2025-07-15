@@ -1,6 +1,7 @@
 import {type FC, useCallback, useState} from "react";
 import type {NavbarProps} from "../Navbar";
 import {Link} from "../../Atoms/Link";
+import {LanguageSwitcher} from "../../Atoms/LanguageSwitcher";
 
 export const NavbarMobile:FC<NavbarProps> = ({links})=>{
     const [isOpen,setIsOpen] = useState<boolean>(false)
@@ -15,11 +16,17 @@ export const NavbarMobile:FC<NavbarProps> = ({links})=>{
                        <img src={'/images/three-horizontal-lines-icon.png'}/>
                     </button>
                 </div>
+                <div className={`${isOpen ? '' : 'hidden'} `}>
 
-                <ul className={`${isOpen ? '' : 'hidden'} w-full flex flex-row list-none absolute z-20 top-full left-0 bg-white  py-2 px-4`}>
-                    {links.length > 0 && links.map((link, key)=><Link key={key} {...link} />)}
+                    <ul className={` w-full flex flex-row list-none absolute z-20 top-full left-0 bg-white  py-2 px-4`}>
+                        {links.length > 0 && links.map((link, key)=><Link key={key} {...link} />)}
 
-                </ul>
+                    </ul>
+                    <LanguageSwitcher/>
+
+                </div>
+
+
             </div>
         </div>
     )
