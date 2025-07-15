@@ -12,9 +12,7 @@ export const NavbarMobile:FC<NavbarProps> = ({links})=>{
             <div className={'flex items-center'}>
                 <div className={'px-10 py-3'}>
                     <button  onClick={toggleMenu} className="w-8 h-8  flex flex-col justify-around">
-                        <div className="w-full h-1 bg-gray-600 rounded-full"></div>
-                        <div className="w-full h-1 bg-gray-600 rounded-full"></div>
-                        <div className="w-full h-1 bg-gray-600 rounded-full"></div>
+                       <img src={'/images/three-horizontal-lines-icon.png'}/>
                     </button>
                 </div>
 
