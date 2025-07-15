@@ -8,44 +8,71 @@ export const useCardServiceInfo = () => {
         sectionOne: [
             {
                 title: t("cardCloudTitle"),
-                description: t("cardCloudDescription")
+                description: t("cardCloudDescription"),
+                image : {
+                    src: '/image/cloud-hosting-server-icon.png'
+                }
             },
             {
                 title: t("cardMigrationTitle"),
-                description: t("cardMigrationDescription")
+                description: t("cardMigrationDescription"),
+                image:{
+                    src: '/image/server-cloud-icon.png'
+                }
             },
             {
                 title: t("cardDevopsTitle"),
-                description: t("cardDevopsDescription")
+                description: t("cardDevopsDescription"),
+                image:{
+                    src: '/image/headphone-headset-icon.png'
+                }
             },
 
 
         ],
         sectionTwo:[{
             title: t("cardDevSecOpsTitle"),
-                description: t("cardDevSecOpsDescription")
+                description: t("cardDevSecOpsDescription"),
+            image:{
+                src: '/image/process-icon.png'
+            }
             },
             {
                 title: t("cardSupportServiceTitle"),
-                description: t("cardSupportServiceDescription")
+                description: t("cardSupportServiceDescription"),
+                image:{
+                    src: '/image/web-service-icon.png'
+                }
             },
             {
                 title: t("cardContractTitle"),
-                description: t("cardContractDescription")
+                description: t("cardContractDescription"),
+                image:{
+                    src: '/image/internet-browsing-icon.png'
+                }
             },
            ],
         sectionThree:[
             {
                 title: t("cardFinOpsTitle"),
-                description: t("cardFinOpsDescription")
+                description: t("cardFinOpsDescription"),
+                image:{
+                    src: '/image/repairing-icon.png'
+                }
             },
             {
                 title: t("cardReviewCloudTitle"),
-                description: t("cardReviewCloudDescription")
+                description: t("cardReviewCloudDescription"),
+                image:{
+                    src: '/image/website-layout-icon.png'
+                }
             },
             {
                 title: t("cardSoCaaSTitle"),
-                description: t("cardSoCaaSDescription")
+                description: t("cardSoCaaSDescription"),
+                image:{
+                    src: '/image/male-services-support-icon.png'
+                }
             }
         ]
     }), [t]);

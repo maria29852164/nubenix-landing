@@ -1,11 +1,11 @@
 import type {ImgHTMLAttributes} from "react";
 
 export type ImageHtmlProps = ImgHTMLAttributes<HTMLImageElement>
-export type ImageProps = ImageHtmlProps & {
+export type CustomImageProps = ImageHtmlProps & {
 
 }
 
-export const CustomImage: React.FC<ImageProps> = ({ src, alt, ...rest }: ImageProps) => {
+export const CustomImage: React.FC<CustomImageProps> = ({ src, alt, ...rest }) => {
     return (
         <img   src={src} {...rest}></img>
     )
