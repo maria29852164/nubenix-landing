@@ -1,7 +1,6 @@
 import type {FC} from "react";
 import {BannerImage} from "../../Atoms/BannerImage";
 import AWSImage from '../../../../public/images/aws.png';
-import {useIsMobile} from "../../../hooks/useIsMobile.tsx";
 export type BannerProps={
     titleOne: string;
     titleTwo: string;
