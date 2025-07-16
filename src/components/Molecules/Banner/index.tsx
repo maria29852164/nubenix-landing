@@ -1,8 +1,6 @@
 import type {FC} from "react";
 import {BannerImage} from "../../Atoms/BannerImage";
 import AWSImage from '../../../../public/images/aws.png';
-import GoogleCloudImage from '../../../../public/images/google-cloud.png';
-import AzureImage from '../../../../public/images/azure.png';
 export type BannerProps={
     titleOne: string;
     titleTwo: string;
@@ -27,7 +25,7 @@ export const Banner:FC<BannerProps> = ({titleOne,titleTwo,description})=>{
                    <img className={'lg:h-20 h-14'} src={AWSImage}/>
 
                </div>
-      
+
            </div>
        </div>
 
