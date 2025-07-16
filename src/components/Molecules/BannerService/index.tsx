@@ -18,7 +18,7 @@ export const BannerService:FC = ()=>{
                     description: t('servicesDescription')
                 },
                 {
-                    image:'/images/Asset%203.png',
+                    image:'/images/aws-vpc-icon.png',
                     alt:'Asset 2',
                     title: [
                         t('designAppsPartOne'),
@@ -28,7 +28,7 @@ export const BannerService:FC = ()=>{
 
                 },
                 {
-                    image:'/images/phone.png',
+                    image:'/images/branching-icon.png',
                     alt:'Asset 3',
                     title: [
                         t('optimizeAppsPartOne'),
