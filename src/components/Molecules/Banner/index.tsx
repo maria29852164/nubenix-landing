@@ -1,6 +1,7 @@
 import type {FC} from "react";
 import {BannerImage} from "../../Atoms/BannerImage";
 import AWSImage from '../../../../public/images/aws.png';
+import {useIsMobile} from "../../../hooks/useIsMobile.tsx";
 export type BannerProps={
     titleOne: string;
     titleTwo: string;
@@ -8,12 +9,18 @@ export type BannerProps={
 }
 
 export const Banner:FC<BannerProps> = ({titleOne,titleTwo,description})=>{
-   return <section id={'home'} className={'relative'}>
+   const {isDesktop} = useIsMobile()
+
+    return <section id={'home'} className={'relative'}>
        <div  >
            <BannerImage/>
 
        </div>
-       <div className={'absolute top-1/4  lg:left-1/4 left-4 text-white z-10'}>
+        {!isDesktop &&   <div className={'absolute z-20 top-0 right-0'}>
+            <img src="/images/banner-image.png" className={'h-[740px] grayscale-[20%]'} alt="fsdf"/>
+
+        </div>}
+       <div className={'absolute top-1/4  left-10 text-white z-10'}>
            <h1 className={'lg:text-[60px] md:text-[40px]   font-bold '}>{titleOne}</h1>
 
 
@@ -28,6 +35,7 @@ export const Banner:FC<BannerProps> = ({titleOne,titleTwo,description})=>{
 
            </div>
        </div>
+
 
    </section>
 }
