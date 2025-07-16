@@ -40,7 +40,7 @@ export const CardsContainer:FC<CardsContainerProps> = ({cardsInfo}) => {
                    <div className={'flex  items-center justify-center'}>
                        {!isMobile &&  <span className={'h-0.5 bg-gray-600 w-72'}></span>
                        }
-                       <CustomImage className={'h-40 mb-2'} {...value.imageSection.image}/>
+                       <CustomImage className={'h-40 mb-2 px-2'} {...value.imageSection.image}/>
                        {!isMobile &&  <span className={'h-0.5 bg-gray-600 w-72'}></span>
                        }
 
