@@ -57,6 +57,23 @@ const resources = {
             "privacy": "Privacy Policy",
             "terms": "Terms of Service",
             "cookies": "Cookie Settings",
+
+            "titleServicePartOne": "Custom",
+            "titleServicePartTwo": "services",
+            "titleServicePartThree": "to",
+            "titleServicePartFour": "Boost",
+            "titleServicePartFive": "Your Business",
+            "titleServiceClients":"Who are our clients?",
+
+            "servicesAppsPartOne": "Your ideas in",
+            "servicesAppsPartTwo": "mobile apps",
+            "servicesDescription": "We develop mobile apps that not only look good but work perfectly.",
+            "designAppsPartOne": "We design",
+            "designAppsPartTwo": "your website",
+            "designDescription": "We transform your ideas into functional websites designed to stand out in the digital world.",
+            "optimizeAppsPartOne": "Optimize with",
+            "optimizeAppsPartTwo": "our CRM",
+            "optimizeDescription": "Boost your sales and customer relationships - discover how our CRM simplifies your business.",
         }
     },
 
@@ -116,6 +133,22 @@ const resources = {
             "terms": "Términos del Servicio",
             "cookies": "Configuración de Cookies",
 
+            "titleServicePartOne": "Servicios a",
+            "titleServicePartTwo": "medida",
+            "titleServicePartThree": "para",
+            "titleServicePartFour": "Potenciar",
+            "titleServicePartFive": "tu Negocio",
+            "titleServiceClients":"¿Quienes son nuestros clientes?",
+
+            "servicesAppsPartOne": "Tus ideas en",
+            "servicesAppsPartTwo": "app mobiles",
+            "servicesDescription": "Desarrollamos apps móviles que no solo se ven bien, sino que funcionan.",
+            "designAppsPartOne": "Diseñamos",
+            "designAppsPartTwo": "tu website",
+            "designDescription": "Transformamos tus ideas en websites funcionales y diseñados para destacar en el mundo digital.",
+            "optimizeAppsPartOne": "Optimiza con",
+            "optimizeAppsPartTwo": "nuestro CRM",
+            "optimizeDescription": "Potencia tus ventas y la relación con tus clientes, descubre cómo nuestro CRM simplifica tu negocio.",
         }
     }
 };

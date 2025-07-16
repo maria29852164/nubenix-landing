@@ -7,7 +7,6 @@ export type CustomImageProps = ImageHtmlProps & {
 
 export const CustomImage: React.FC<CustomImageProps> = ({ src, alt, ...rest }) => {
 
-  console.log('src', src)
     return (
         <img   src={src} {...rest}></img>
     )

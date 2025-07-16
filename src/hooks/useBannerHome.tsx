@@ -8,7 +8,13 @@ export const useBannerHome = () => {
          titleTwo: t("bannerTitleTwo"),
          description: t("bannerDescription")
      }),[t])
+
+    const bannerService = useMemo(()=>({
+
+        title: t("titleServiceClients")
+    }),[t])
     return {
          bannerInfo,
+        bannerService
     }
 }
