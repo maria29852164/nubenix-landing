@@ -1,6 +1,6 @@
 
-import Banner from '../../../../public/images/banner.jpg'
+import Banner from '../../../../public/images/banner-background.jpg'
 
 export const BannerImage = () => {
-    return <img src={Banner} className={'w-full h-[75vh] grayscale-[60%] '} alt="BannerImage" />
+    return <img src={Banner} className={'w-full h-[85vh] grayscale-[65%] '} alt="BannerImage" />
 }

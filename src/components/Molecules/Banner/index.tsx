@@ -16,8 +16,8 @@ export const Banner:FC<BannerProps> = ({titleOne,titleTwo,description})=>{
            <BannerImage/>
 
        </div>
-        {!isDesktop &&   <div className={'absolute z-20 top-0 right-0'}>
-            <img src="/images/banner-image.png" className={'h-[740px] grayscale-[20%]'} alt="fsdf"/>
+        {!isDesktop &&   <div className={'absolute z-20 bottom-0 right-0'}>
+            <img src="/images/banner-man.png" className={'h-[740px] grayscale-[20%]'} alt="fsdf"/>
 
         </div>}
        <div className={'absolute top-1/4  left-10 text-white z-10'}>
