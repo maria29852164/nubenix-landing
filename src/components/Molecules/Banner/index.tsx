@@ -9,17 +9,13 @@ export type BannerProps={
 }
 
 export const Banner:FC<BannerProps> = ({titleOne,titleTwo,description})=>{
-   const {isDesktop} = useIsMobile()
 
     return <section id={'home'} className={'relative'}>
        <div  >
            <BannerImage/>
 
        </div>
-        {!isDesktop &&   <div className={'absolute z-20 bottom-0 right-0'}>
-            <img src="/images/banner-man.png" className={'h-[740px] grayscale-[20%]'} alt="fsdf"/>
 
-        </div>}
        <div className={'absolute top-1/4  left-10 text-white z-10'}>
            <h1 className={'lg:text-[60px] md:text-[40px]   font-bold '}>{titleOne}</h1>
 
