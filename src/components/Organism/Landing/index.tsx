@@ -22,7 +22,7 @@ export const Landing: FC = () => {
             {isMobile ? <NavbarMobile links={navbarItems}/> : <Navbar links={navbarItems}/>}
             <Banner {...bannerInfo} />
             <CardsContainer cardsInfo={cardsInfo}/>
-            <BannerServiceContainer title={bannerService.title}/>
+            {!isMobile && <BannerServiceContainer title={bannerService.title}/>}
             <Footer footerInfo={footerInfo}/>
 
         </div>

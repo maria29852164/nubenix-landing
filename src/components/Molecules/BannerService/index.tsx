@@ -5,6 +5,7 @@ export const BannerService:FC = ()=>{
     const {t} = useTranslation()
     const [hoveredCard, setHoveredCard] = useState<number | null>(null);
 
+
     const arrayCardsTranslation = useMemo(()=>(
         {
             cards:[

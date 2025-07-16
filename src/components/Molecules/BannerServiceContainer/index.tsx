@@ -9,7 +9,7 @@ export type BannerServiceContainerProps = {
 export const BannerServiceContainer:FC<BannerServiceContainerProps> = ({title}) => {
 
     return (
-        <div className={'flex flex-col justify-center items-center'}>
+        <section id={'about'} className={'flex flex-col justify-center items-center'}>
             <div className={'pb-32'}>
 
                 <CustomText className={'text-gray-900 font-semibold lg:text-4xl text-lg'} value={title}/>
@@ -17,7 +17,7 @@ export const BannerServiceContainer:FC<BannerServiceContainerProps> = ({title}) 
             </div>
 
             <BannerService/>
-        </div>
+        </section>
     )
 
 }

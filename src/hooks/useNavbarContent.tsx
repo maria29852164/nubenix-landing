@@ -7,7 +7,7 @@ export const useNavbarContent = () => {
     const navbarItems = useMemo(():Array<LinkProps> => ([
         {
             title: t("menuHome"),
-            link:"#",
+            link:t("menuHomeLink"),
         },
         {
             title: t("menuServices"),
@@ -15,11 +15,11 @@ export const useNavbarContent = () => {
         },
         {
             title: t("menuAbout"),
-            link: "#",
+            link: t("menuAboutLink"),
         },
         {
             title: t("menuContactUs"),
-            link: "#",
+            link: t("menuContactUsLink"),
         },
     ]),[t])
     return {

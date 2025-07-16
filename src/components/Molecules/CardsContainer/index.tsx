@@ -33,7 +33,7 @@ export interface CardsContainerProps{
 export const CardsContainer:FC<CardsContainerProps> = ({cardsInfo}) => {
     const {isMobile} = useIsMobile()
     return (
-        <div className={'flex flex-wrap items-center justify-evenly py-10'}>
+        <section id={'services'} className={'flex flex-wrap items-center justify-evenly py-10'}>
             {Object.entries(cardsInfo).map(([key, value]) => (
 
                <div key={key}>
@@ -53,6 +53,6 @@ export const CardsContainer:FC<CardsContainerProps> = ({cardsInfo}) => {
 
 
 
-        </div>
+        </section>
     )
 }

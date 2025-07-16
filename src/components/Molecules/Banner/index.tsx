@@ -10,7 +10,7 @@ export type BannerProps={
 }
 
 export const Banner:FC<BannerProps> = ({titleOne,titleTwo,description})=>{
-   return <div className={'relative'}>
+   return <section id={'home'} className={'relative'}>
        <div  >
            <BannerImage/>
 
@@ -39,5 +39,5 @@ export const Banner:FC<BannerProps> = ({titleOne,titleTwo,description})=>{
            </div>
        </div>
 
-   </div>
+   </section>
 }

@@ -9,7 +9,7 @@ export interface FooterProps {
 export const Footer:FC<FooterProps> = ({footerInfo})=>{
     const {t} = useTranslation()
     return (
-        <div>
+        <section id={'contact'}>
             <div className={'gradientFooter h-0.5vh '}>
                 <div className={'pl-10 flex flex-wrap justify-between'}>
                     <div className={'flex flex-col space-y-28  mx-4  py-10'}>
@@ -115,6 +115,6 @@ export const Footer:FC<FooterProps> = ({footerInfo})=>{
 
             </div>
 
-        </div>
+        </section>
     )
 }
