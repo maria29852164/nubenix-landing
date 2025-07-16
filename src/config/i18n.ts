@@ -74,6 +74,17 @@ const resources = {
             "optimizeAppsPartOne": "Optimize with",
             "optimizeAppsPartTwo": "our CRM",
             "optimizeDescription": "Boost your sales and customer relationships - discover how our CRM simplifies your business.",
+            "membersTitle":"A world-class team redefining collaboration for real-world impact.",
+
+            "strategyTitle": "Strategy",
+            "strategyDescription": "Fueling growth, crafting winning roadmaps, and securing a market edge—all begin with a powerful strategy. (And that's exactly where we begin).",
+            "transformationTitle": "Transformation",
+            "transformationDescription": "Redefining workflows and empowering your team to build an agile, growth-driven culture.",
+            "designTitle": "Design",
+            "designDescriptionProcess": "Simplifying ideas into their purest, most compelling form—turning business challenges into elegant solutions.",
+            "technologyTitle": "Technology",
+            "technologyDescription": "Future-proofing your brand: from vision to execution, with expert guidance across platforms and cutting-edge tech."
+
         }
     },
 
@@ -149,6 +160,19 @@ const resources = {
             "optimizeAppsPartOne": "Optimiza con",
             "optimizeAppsPartTwo": "nuestro CRM",
             "optimizeDescription": "Potencia tus ventas y la relación con tus clientes, descubre cómo nuestro CRM simplifica tu negocio.",
+
+            "membersTitle":"Excelencia sin fronteras: un equipo que redefine el éxito con estrategias reales.",
+
+            "strategyTitle": "Estrategia",
+            "strategyDescription": "Impulsar el crecimiento, diseñar planes ganadores y dominar el mercado comienza con una estrategia sólida. (Ahí es donde empezamos nosotros).",
+            "transformationTitle": "Transformación",
+            "transformationDescription": "Reinventando procesos y liberando el potencial de tu equipo para crear una cultura ágil orientada al crecimiento.",
+            "designTitle": "Diseño",
+            "designDescriptionProcess": "Refinamos ideas hasta su esencia más impactante, resolviendo tus desafíos empresariales con soluciones elegantes.",
+            "technologyTitle": "Tecnología",
+            "technologyDescription": "Preparando tu marca para el futuro: desde el concepto hasta la implementación, con expertise en tecnologías líderes."
+
+
         }
     }
 };
