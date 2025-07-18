@@ -85,8 +85,30 @@ const resources = {
             "designTitle": "Design",
             "designDescriptionProcess": "Simplifying ideas into their purest, most compelling form—turning business challenges into elegant solutions.",
             "technologyTitle": "Technology",
-            "technologyDescription": "Future-proofing your brand: from vision to execution, with expert guidance across platforms and cutting-edge tech."
-
+            "technologyDescription": "Future-proofing your brand: from vision to execution, with expert guidance across platforms and cutting-edge tech.",
+            "titleOurDisciplines": "Our Disciplines",
+            "sections": {
+                "containerization": {
+                    "title": "Containerization",
+                    "description": "Docker · K8s · OpenShift · Modernization"
+                },
+                "cloudNative": {
+                    "title": "Cloud Native",
+                    "description": "Architecture · Apps · 100% native cloud solutions"
+                },
+                "supportServices": {
+                    "title": "Support Services",
+                    "description": "Cloud · On-prem · Hybrid Platform Support"
+                },
+                "devOps": {
+                    "title": "DevOps",
+                    "description": "CI · CD · Continuous Deployment · Virtualization"
+                },
+                "professionalServices": {
+                    "title": "Professional Services",
+                    "description": "Consulting · Assessments · Coaching"
+                }
+            }
         }
     },
 
@@ -172,7 +194,30 @@ const resources = {
             "designTitle": "Diseño",
             "designDescriptionProcess": "Refinamos ideas hasta su esencia más impactante, resolviendo tus desafíos empresariales con soluciones elegantes.",
             "technologyTitle": "Tecnología",
-            "technologyDescription": "Preparando tu marca para el futuro: desde el concepto hasta la implementación, con expertise en tecnologías líderes."
+            "technologyDescription": "Preparando tu marca para el futuro: desde el concepto hasta la implementación, con expertise en tecnologías líderes.",
+            "titleOurDisciplines": "Nuestras Disciplinas",
+            "sections": {
+                "containerization": {
+                    "title": "Contenerización",
+                    "description": "Docker · K8s · OpenShift · Modernización"
+                },
+                "cloudNative": {
+                    "title": "Nativo en la Nube",
+                    "description": "Arquitectura · Aplicaciones · Soluciones 100% nativas en la nube"
+                },
+                "supportServices": {
+                    "title": "Servicios de Soporte",
+                    "description": "Soporte de plataforma en la nube · Local · Arquitecturas híbridas"
+                },
+                "devOps": {
+                    "title": "DevOps",
+                    "description": "Integración continua · Entrega continua · Despliegue continuo · Virtualización"
+                },
+                "professionalServices": {
+                    "title": "Servicios Profesionales",
+                    "description": "Consultoría · Evaluaciones · Acompañamiento"
+                }
+            }
 
 
         }

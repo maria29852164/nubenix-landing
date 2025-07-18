@@ -10,6 +10,7 @@ import {CardsContainer} from "../../Molecules/CardsContainer";
 import {Footer} from "../../Molecules/Footer";
 import {useFooterInfo} from "../../../hooks/useFooterInfo.tsx";
 import {BannerServiceContainer} from "../../Molecules/BannerServiceContainer";
+import {OurExperience} from "../../Molecules/OurExperience";
 
 export const Landing: FC = () => {
     const {navbarItems} = useNavbarContent();
@@ -22,6 +23,7 @@ export const Landing: FC = () => {
             {isMobile ? <NavbarMobile links={navbarItems}/> : <Navbar links={navbarItems}/>}
             <Banner {...bannerInfo} />
             <CardsContainer cardsInfo={cardsInfo}/>
+            <OurExperience/>
             {!isMobile && <BannerServiceContainer title={bannerService.title}/>}
             <Footer footerInfo={footerInfo}/>
 
