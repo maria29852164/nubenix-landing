@@ -61,9 +61,9 @@ export const BannerService:FC = ()=>{
                                 <div className={`flex flex-col items-center justify-center h-full transition-all duration-300 ${hoveredCard === i ? 'pt-10' : 'pt-4'}`}>
                                     <div className={`${hoveredCard ? 'mt-64':'mt-52'} transition-all duration-300`}>
                                         <span className={`text-[40px] font-bold block transition-all duration-300 `}>{item.title[0]}</span>
-                                        <span className={`text-[40px] text-[#4F308A] font-bold block `}>{item.title[1]}</span>
+                                        <span className={`text-[40px] text-[#5252a2] font-bold block `}>{item.title[1]}</span>
 
-                                        <div className={`opacity-0 transition-all duration-300 ease-out ${ hoveredCard === i && 'opacity-100'} bg-[#9CC454] h-[19px] w-72 mt-2`}></div>
+                                        <div className={`opacity-0 transition-all duration-300 ease-out ${ hoveredCard === i && 'opacity-100'} bg-[#65c8d6] h-[19px] w-72 mt-2`}></div>
 
                                         {/* Contenido extendido */}
                                         <div className={`opacity-0 translate-y-4 transition-all duration-500  w-[270px] ease-in-out   ${hoveredCard === i ? 'opacity-100 translate-y-0' : ''}`}>
@@ -79,7 +79,7 @@ export const BannerService:FC = ()=>{
 
                                     <div className="w-full absolute bottom-4  ">
                                         <button
-                                            className="bg-[#9CC454] text-white p-2 w-full sm:w-52 rounded-3xl text-xl font-semibold"
+                                            className="bg-[#65c8d6] text-white p-2 w-full sm:w-52 rounded-3xl text-xl font-semibold"
                                             onMouseEnter={() => setHoveredCard(i)}
                                         >
                                             <div className="flex items-center justify-center">

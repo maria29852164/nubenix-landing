@@ -2,7 +2,7 @@
     background-color: hsla(93.86666666666672, 0%, 42%, 1);
     background-image:
             radial-gradient(circle at 32% 100%, hsla(14.58823529411765, 0%, 0%, 1) 0%, transparent 55.9824946899837%),
-            radial-gradient(circle at 1% 37%, hsl(269, 94%, 26%, 0.5) 14.440524602878119%, transparent 30.79839422763922%),
+            radial-gradient(circle at 1% 37%, hsl(240, 33%, 48%) 14.440524602878119%, transparent 30.79839422763922%),
             radial-gradient(circle at 100% 38%, hsla(253.24001377094245, 0%, 0%, 1) 0%, transparent 156.9281891990022%),
             radial-gradient(circle at 8% -10%, hsl(217, 82%, 22%) 15.127085515879461%, transparent 20.74747281461148%);
     background-blend-mode: normal, normal, normal, normal;
@@ -10,7 +10,7 @@
 
 .gradientFooter{
     background-color: hsla(86.95652173913103, 0%, 0%, 1);
-    background-image: radial-gradient(circle at 25% -20%, hsl(202, 74%, 18%) 3.465003465003465%, transparent 19.735306388870843%), radial-gradient(circle at -6% -20%, hsla(260.66666666666663, 48%, 36%, 1) 4.08752805163938%, transparent 22.907476878546216%), radial-gradient(circle at 11% 78%, hsla(271.94805194805195, 0%, 0%, 1) 17.42115932789761%, transparent 29.534294228874305%), radial-gradient(circle at 89% 8%, hsla(253.04347826086956, 100%, 9%, 1) 0%, transparent 150%), radial-gradient(circle at 83% 37%, hsla(253.469387755102, 100%, 9%, 1) 47.342876981548855%, transparent 150%), radial-gradient(circle at 125% 64%, hsla(260.66666666666663, 48%, 36%, 1) 35.684447311644576%, transparent 150%), radial-gradient(circle at 125% 64%, hsla(253.46938775510168, 0%, 20%, 1) 35.684447311644576%, transparent 150%), radial-gradient(circle at 125% 64%, hsla(253.46938775510168, 0%, 20%, 1) 35.684447311644576%, transparent 150%);
+    background-image: radial-gradient(circle at 25% -20%, hsl(202, 74%, 18%) 3.465003465003465%, transparent 19.735306388870843%), radial-gradient(circle at -6% -20%, hsl(240, 33%, 48%) 4.08752805163938%, transparent 22.907476878546216%), radial-gradient(circle at 11% 78%, hsla(271.94805194805195, 0%, 0%, 1) 17.42115932789761%, transparent 29.534294228874305%), radial-gradient(circle at 89% 8%, hsla(253.04347826086956, 100%, 9%, 1) 0%, transparent 150%), radial-gradient(circle at 83% 37%, hsla(253.469387755102, 100%, 9%, 1) 47.342876981548855%, transparent 150%), radial-gradient(circle at 125% 64%, hsla(260.66666666666663, 48%, 36%, 1) 35.684447311644576%, transparent 150%), radial-gradient(circle at 125% 64%, hsla(253.46938775510168, 0%, 20%, 1) 35.684447311644576%, transparent 150%), radial-gradient(circle at 125% 64%, hsla(253.46938775510168, 0%, 20%, 1) 35.684447311644576%, transparent 150%);
     background-blend-mode: normal, normal, normal, normal, normal, normal, normal, normal;
 }
 
@@ -19,7 +19,7 @@
     background-color: hsla(93.86666666666672, 0%, 42%, 1);
     background-image:
             radial-gradient(circle at 32% 100%, hsla(14.58823529411765, 0%, 0%, 1) 0%, transparent 55.9824946899837%),
-            radial-gradient(circle at 1% 37%, hsl(269, 94%, 26%, 0.5) 14.440524602878119%, transparent 30.79839422763922%),
+            radial-gradient(circle at 1% 37%, hsl(240, 33%, 48%) 14.440524602878119%, transparent 30.79839422763922%),
             radial-gradient(circle at 100% 38%, hsla(253.24001377094245, 0%, 0%, 1) 0%, transparent 156.9281891990022%),
             radial-gradient(circle at 8% -10%, hsl(202, 74%, 18%) 15.127085515879461%, transparent 20.74747281461148%);
     background-blend-mode: normal, normal, normal, normal;
