@@ -55,7 +55,7 @@ export const Footer:FC<FooterProps> = ({footerInfo})=>{
                     <div className={'flex justify-center pr-40 pt-12 '}>
                         <div className={'flex flex-col items-center '}>
                             <div className={'py-5'}>
-                                <img className={'w-44'} src="/images/logo.png" alt=""/>
+                                <img className={'w-44'} src="/images/logo_main_white.png" alt=""/>
                             </div>
                             <button
                                 className={'bg-[#9CC454] text-white font-semibold rounded-full text-[19px] p-2.5 min-w-[180.99px]'}>    {t("linkContact")}</button>

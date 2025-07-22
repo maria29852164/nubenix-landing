@@ -13,7 +13,7 @@ export const Navbar:FC<NavbarProps> = ({links})=>{
     return (
         <div className={"flex items-center justify-between py-10"}>
         <div className={'pl-10'}>
-            <img className={'h-14'} src={'/images/logo.png'}/>
+            <img className={'h-20'} src={'/images/logo_main.png'}/>
 
         </div>
         <div>
