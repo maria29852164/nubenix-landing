@@ -34,7 +34,7 @@ export const OurExperience = () => {
                                 whileInView={{ opacity: 1, x: 0 }}
                                 viewport={{ once: true, amount: 0.3 }}
                                 transition={{ duration: 0.5, delay: index * 0.15 }}
-                                className="bg-amber-50 p-6 rounded-2xl hover:shadow-xl transition shadow-md border border-gray-700"
+                                className="bg-white p-6 rounded-2xl hover:shadow-xl transition shadow-md border border-gray-700"
                             >
                                 <div className="flex items-center gap-4 mb-4">
                                     <CustomImage className="w-10 h-10" {...discipline.image} />
