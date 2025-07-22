@@ -1,5 +1,5 @@
 import type { FC } from "react";
-import Person from '../../../../public/images/banner-man-2.png';
+import Person from '../../../../public/images/banner-final-person.png';
 
 export type BannerProps = {
     titleOne: string;

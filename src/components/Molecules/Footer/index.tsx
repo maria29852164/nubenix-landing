@@ -58,7 +58,7 @@ export const Footer:FC<FooterProps> = ({footerInfo})=>{
                                 <img className={'w-44'} src="/images/logo_main_white.png" alt=""/>
                             </div>
                             <button
-                                className={'bg-[#9CC454] text-white font-semibold rounded-full text-[19px] p-2.5 min-w-[180.99px]'}>    {t("linkContact")}</button>
+                                className={'bg-[#65c8d6] text-white font-semibold rounded-full text-[19px] p-2.5 min-w-[180.99px]'}>    {t("linkContact")}</button>
 
 
                             <ul className={'py-10  text-left flex flex-col items-start  space-y-3'}>

@@ -33,7 +33,7 @@ export const useCardServiceInfo = () => {
             ],
             imageSection: {
                 image:{
-                    src: '/images/database-server-icon.png'
+                    src: '/images/person1.png'
                 }
             }
         },
@@ -63,7 +63,7 @@ export const useCardServiceInfo = () => {
             ],
             imageSection: {
                 image:{
-                    src: '/images/crane-icon.png'
+                    src: '/images/person2.2.png'
                 }
             }
         },
@@ -93,7 +93,7 @@ export const useCardServiceInfo = () => {
             ],
             imageSection: {
                 image:{
-                    src: '/images/rest-api-icon.png'
+                    src: '/images/person3.png'
                 }
             }
         },
