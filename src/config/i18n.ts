@@ -5,9 +5,9 @@ const resources = {
     en: {
         translation: {
             "Welcome to React": "Welcome to React and react-i18next",
-            "bannerTitleOne": "We work side by side",
-            "bannerTitleTwo": "to grow your business",
-            "bannerDescription": "We offer IT services that enhance and transform your business, adapting it to new challenges to remain competitive in the market.",
+            "bannerTitleOne": "Driving your business",
+            "bannerTitleTwo": "forward, together",
+            "bannerDescription": "We provide tech solutions that strengthen and modernize your company, preparing it to meet new market challenges head-on.",
             "menuHome": "Home",
             "menuHomeLink": "#home",
             "menuServices": "Services",
@@ -115,9 +115,9 @@ const resources = {
     es:{
         translation: {
             "Welcome to React": "Bienvenido a react con react-i18next",
-            "bannerTitleOne":"Trabajamos codo a codo",
-            "bannerTitleTwo":"en el crecimiento de tu empresa",
-            "bannerDescription":"Ofrecemos servicios de TI que potencian y transforman su negocio adaptándolo a los nuevos retos para mantenerse competitivo en el mercado.",
+            "bannerTitleOne":"Impulsamos",
+            "bannerTitleTwo":"tu negocio juntos",
+            "bannerDescription":"Brindamos soluciones tecnológicas que fortalecen y modernizan tu empresa, preparándola para enfrentar los nuevos retos del mercado.",
             "menuHome":"Hogar",
             "menuHomeLink":"#home",
             "menuServices":"Servicios",

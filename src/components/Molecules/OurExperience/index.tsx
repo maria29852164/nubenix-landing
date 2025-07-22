@@ -6,10 +6,23 @@ export const OurExperience = () => {
     const { infoTitle, disciplines } = useOurDiciplines();
 
     return (
-        <section className="bg-[#1a1a1a] py-20 text-white">
-            <div className="max-w-6xl mx-auto px-6">
+        <section className="relative overflow-hidden bg-[#65c8d6] pt-10 pb-20 text-white">
+            <div className="absolute bottom-0 left-0 w-full">
+                <svg
+                    viewBox="0 0 1440 320"
+                    className="w-full h-40 animate-wave"
+                    preserveAspectRatio="none"
+                >
+                    <path
+                        fill="#2a7e94"
+                        fillOpacity="1"
+                        d="M0,160L40,165.3C80,171,160,181,240,165.3C320,149,400,107,480,85.3C560,64,640,64,720,85.3C800,107,880,149,960,149.3C1040,149,1120,107,1200,117.3C1280,128,1360,192,1400,224L1440,256L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+                    ></path>
+                </svg>
+            </div>
+            <div className="max-w-6xl mx-auto px-6 relative z-10">
                 <h2 className="text-3xl font-semibold text-center mb-12">
-                    <span className="text-gray-300">{infoTitle.title}</span>
+                    <span className="text-white">{infoTitle.title}</span>
                 </h2>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
