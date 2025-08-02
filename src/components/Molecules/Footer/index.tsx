@@ -2,6 +2,8 @@ import './footer.css'
 import {useTranslation} from "react-i18next";
 import {TextFooter, type TextFooterProps} from "../../Atoms/TextFooter";
 import type {FC} from "react";
+import House from '../../../../public/images/house.png'
+import Cloud from '../../../../public/images/cloud.png'
 
 export interface FooterProps {
     footerInfo:TextFooterProps
@@ -50,6 +52,12 @@ export const Footer:FC<FooterProps> = ({footerInfo})=>{
                             </li>
                         </div>
 
+
+                    </div>
+                    <div className={'self-end'}>
+                        <img  src={Cloud} className={'h-[15rem]'} alt=""/>
+
+                        <img  src={House} className={'h-[25rem]'} alt=""/>
 
                     </div>
                     <div className={'flex justify-center pr-40 pt-12 '}>

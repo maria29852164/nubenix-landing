@@ -1,13 +1,14 @@
 import { useOurDiciplines } from "../../../hooks/useOurDiciplines.tsx";
 import { CustomImage } from "../../Atoms/CustomImage";
 import { motion } from "framer-motion";
-
+import Devops from '../../../../public/images/devops-style.png'
 export const OurExperience = () => {
     const { infoTitle, disciplines } = useOurDiciplines();
 
     return (
         <section className="relative overflow-hidden bg-[#65c8d6] pt-10 pb-20 text-white">
             <div className="absolute bottom-0 left-0 w-full">
+
                 <svg
                     viewBox="0 0 1440 320"
                     className="w-full h-40 animate-wave"
@@ -21,9 +22,19 @@ export const OurExperience = () => {
                 </svg>
             </div>
             <div className="max-w-6xl mx-auto px-6 relative z-10">
-                <h2 className="text-3xl font-semibold text-center mb-12">
-                    <span className="text-white">{infoTitle.title}</span>
-                </h2>
+                <div className={'flex flex-col justify-center items-center'}>
+
+                    <h2 className="text-3xl font-semibold text-center mb-12">
+                        <span className="text-white">{infoTitle.title}</span>
+                    </h2>
+                    <div className={'bg-[#2a7e94] mb-10 rounded-full'}>
+                        <img src={Devops} className={'h-52'} alt=""/>
+
+                    </div>
+
+
+                </div>
+
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
                     {disciplines.length > 0 &&
