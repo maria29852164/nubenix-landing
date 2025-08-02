@@ -33,7 +33,7 @@ export const useCardServiceInfo = () => {
             ],
             imageSection: {
                 image:{
-                    src: '/images/person1.png'
+                    src: '/images/card-man.svg'
                 }
             }
         },
@@ -63,7 +63,7 @@ export const useCardServiceInfo = () => {
             ],
             imageSection: {
                 image:{
-                    src: '/images/person2.2.png'
+                    src: '/images/card2-man.svg'
                 }
             }
         },

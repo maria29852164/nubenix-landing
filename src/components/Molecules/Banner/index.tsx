@@ -1,5 +1,5 @@
 import type { FC } from "react";
-import Person from '../../../../public/images/banner-final-person.png';
+import Person from '../../../../public/images/banner-original.svg';
 
 export type BannerProps = {
     titleOne: string;
@@ -39,7 +39,7 @@ export const Banner: FC<BannerProps> = ({ titleOne, titleTwo, description }) => 
                         </div>
                     </div>
                     <div>
-                        <img className="h-[30rem] w-auto" src={Person} alt="Banner person" />
+                        <img className="h-[29rem]  w-auto" src={Person} alt="Banner person" />
                     </div>
                 </div>
             </div>
