@@ -1,5 +1,8 @@
 import type { FC } from "react";
 import Person from '../../../../public/images/banner-original.svg';
+import Step from '../../../../public/images/step1.png'
+import Step2 from '../../../../public/images/step2.png'
+import {useIsMobile} from "../../../hooks/useIsMobile.tsx";
 
 export type BannerProps = {
     titleOne: string;
@@ -8,9 +11,10 @@ export type BannerProps = {
 };
 
 export const Banner: FC<BannerProps> = ({ titleOne, titleTwo, description }) => {
+    const {isDesktopMin} = useIsMobile()
     return (
         <section
-            className="relative overflow-hidden flex justify-center items-center bg-[rgba(82,82,162,0.5)]"
+            className="relative overflow-hidden flex justify-center items-center h-[50rem] bg-[rgba(82,82,162,0.5)]"
             id="home"
         >
             {/* Olas animadas en el fondo inferior */}
@@ -27,6 +31,14 @@ export const Banner: FC<BannerProps> = ({ titleOne, titleTwo, description }) => 
                     ></path>
                 </svg>
             </div>
+            {isDesktopMin &&            <img className={'absolute h-[25rem] top-0 left-0'}  src={Step2} alt=""/>
+            }
+            {
+                isDesktopMin &&             <img className={'absolute h-[25rem] bottom-0 right-0'}  src={Step} alt=""/>
+
+            }
+
+
 
             <div className="z-10 text-black py-10 w-full max-w-screen-xl px-4">
                 <div className="flex justify-between flex-wrap items-center gap-4">
